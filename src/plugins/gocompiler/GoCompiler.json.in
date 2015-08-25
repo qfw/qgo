@@ -1,0 +1,15 @@
+{
+    \"Name\" : \"GoCompiler\",
+    \"Version\" : \"$$QTCREATOR_VERSION\",
+    \"CompatVersion\" : \"$$QTCREATOR_COMPAT_VERSION\",
+    \"Vendor\" : \"Noviga\",
+    \"Copyright\" : \"(C) 2014 Noviga\",
+    \"License\" : [\"GNU Lesser General Public License Usage\",
+                  \"\",
+                  \"This plugin may be used under the terms of the GNU General Public License version 3 as published by the Free Software Foundation. Please review the following information to ensure the GNU General Public License version 3 requirements will be met: http://www.gnu.org/licenses/gpl.html.\"
+    ],
+    \"Category\" : \"Go\",
+    \"Description\" : \"Go compiling support\",
+    \"Url\" : \"http://noviga.com\",
+    $$dependencyList
+}

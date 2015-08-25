@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/gocompiler">
+        <file>images/gopher@2x.png</file>
+        <file>images/gopher.png</file>
+    </qresource>
+</RCC>

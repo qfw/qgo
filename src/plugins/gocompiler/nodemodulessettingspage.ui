@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoCompiler::Internal::NodeModulesSettingsPage</class>
+ <widget class="QWidget" name="GoCompiler::Internal::NodeModulesSettingsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="jadeGroupBox">
+     <property name="title">
+      <string>JADE</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QLabel" name="jadeOutputSuffixLabel">
+        <property name="text">
+         <string>Compiled file suffix:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="jadeCompilerPathEdit"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="jadeCompilerBrowseButton">
+        <property name="text">
+         <string>Browse...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="jadeOutputSuffixEdit"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="jadeCompilerPathLabel">
+        <property name="text">
+         <string>Compiler path:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="LessGroupBox">
+     <property name="title">
+      <string>LESS</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lessCompilerPathLabel">
+        <property name="text">
+         <string>Compiler path:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lessCompilerPathEdit"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="lessCompilerBrowseButton">
+        <property name="text">
+         <string>Browse...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="lessCompressCheckBox">
+        <property name="text">
+         <string>Compress output (-x)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lessOptionsLabel">
+        <property name="text">
+         <string>Options:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>177</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

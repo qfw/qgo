@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/goeditor">
+        <file>GoEditor.mimetypes.xml</file>
+    </qresource>
+</RCC>
